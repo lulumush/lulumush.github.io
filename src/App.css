@@ -85,8 +85,24 @@ header{
     background-color: var(--body-color);
 }
 
+/*============ Layout ============*/
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 35px;
+}
+
+/*============ Buttons ============*/
+.button{
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--second-body-color);
+    padding: 15px 30px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.button:hover{
+    background-color: var(--secondary-color);
 }
