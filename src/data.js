@@ -50,3 +50,22 @@ export const interestData = {
         },
     ]
 }
+
+export const educationData =
+    [
+        {
+            id: 1,
+            date: "2022 (6 mois)",
+            title: "Formation Développeur.se web",
+        },
+        {
+            id: 2,
+            date: "2005-2007",
+            title: "BTS Informatique de Gestion",
+        },
+        {
+            id: 3,
+            date: "2005",
+            title: "BAC Informatique de Gestion",
+        },
+    ]

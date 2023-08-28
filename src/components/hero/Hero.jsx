@@ -6,7 +6,7 @@ import { FaCodeCommit } from 'react-icons/fa6'
 
 const Hero = () => {
     return (
-        <section className='hero container'>
+        <div className='hero container'>
             <div className='hero__container'>
                 <div className='hero__content'>
                     <div className='hero__data'>
@@ -29,7 +29,7 @@ const Hero = () => {
                 </div>
                 <div className='hero__scroll-down'><a href='#about'><FaArrowCircleDown /></a></div>
             </div>
-        </section>
+        </div>
     )
 }
 

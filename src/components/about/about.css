@@ -1,0 +1,94 @@
+#about{
+    background-color: var(--second-body-color);
+}
+
+#about h2{
+    text-align: center;
+}
+
+.about__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.about__content{
+    display:flex;
+    gap:25px;
+}
+
+.about__content > div {
+    flex:1;
+}
+
+.education__section h3{
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.education__container {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .education__container h3{
+    text-align: center;
+  }
+  
+  .education__container::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: var(--third-color);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  .education__item {
+    position: relative;
+    width: 50%;
+  }
+  
+  .education__item::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: -7px;
+    background-color: var(--third-color);
+    top: 25px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+ 
+  /* .left {
+    left: 0;
+    text-align: right;
+  } */
+  
+  .right {
+    left: 50%;
+  }
+  
+  .right::after {
+    left: -9px;
+  }
+  
+  .education__data {
+    padding: 20px 30px;
+    position: relative;
+    border-radius: 10px;
+  }
+
+.education__data > div {
+    font-weight: 600;
+}
+
+.education__data > p {
+    font-size: var(--small-font-size);
+}
