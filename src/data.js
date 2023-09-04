@@ -23,7 +23,7 @@ export const heroData = {
 
 
 export const aboutData = {
-    title: "A Propos :",
+    title: "_ A Propos",
     description: [
         {
             content: "Je m'appelle Lucie et je suis une développeuse Front-End junior, basée en Nouvelle-Aquitaine."

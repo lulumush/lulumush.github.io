@@ -97,6 +97,12 @@
     100% { transform:translateY(0%); }
 }
 
+@media screen and (max-width:992px){
+    .hero__scroll-down{
+        display: none;
+    }
+}
+
 @media screen and (max-width:768px){
     .hero__container{
         padding-top:90px;
@@ -119,13 +125,8 @@
     }
 }
 
-@media screen and (max-width:940px){
-    .hero__scroll-down{
-        display: none;
-    }
-}
 
-@media screen and (max-width:411px){
+@media screen and (max-width:576px){
     .hero__data h1{
         font-size: var(--mobile-big-font-size);
     }
