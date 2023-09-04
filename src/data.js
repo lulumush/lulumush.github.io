@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaCodeCommit } from 'react-icons/fa6'
 
 export const navData = [
     { nav: "Accueil", url: process.env.PUBLIC_URL },
@@ -40,12 +41,15 @@ export const interestData = {
     title: "J'aime aussi:",
     interest: [
         {
+            icon: <FaCodeCommit />,
             content: "La photo argentique"
         },
         {
+            icon: <FaCodeCommit />,
             content: "La randonnée"
         },
         {
+            icon: <FaCodeCommit />,
             content: "Les jeux-vidéos"
         },
     ]
@@ -55,17 +59,20 @@ export const educationData =
     [
         {
             id: 1,
-            date: "2022 (6 mois)",
-            title: "Formation Développeur.se web",
+            date: "Mai 2022 - Nov. 2022",
+            title: "Formation Développeur web",
+            location: "Openclassrooms"
         },
         {
             id: 2,
             date: "2005-2007",
             title: "BTS Informatique de Gestion",
+            location: "Lycée de la Venise Verte, Niort"
         },
         {
             id: 3,
             date: "2005",
             title: "BAC Informatique de Gestion",
+            location: "Lycée de la Venise Verte, Niort"
         },
     ]
