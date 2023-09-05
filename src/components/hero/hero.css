@@ -66,6 +66,7 @@
 }
 
 .hero__img{
+    position: relative;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     background-image: url(../../assets/images/profile.jpg);
     background-repeat: no-repeat;
@@ -74,7 +75,23 @@
     width: 300px;
     height: 300px;
     justify-self: center;
-    animation: blob 10s ease-in-out infinite  1s;
+    animation: blob 10s ease-in-out infinite ;
+}
+
+.hero__img::after{
+    content: "";
+    position: absolute;
+    right: -25px;
+    top: -25px;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background-color: var(--third-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 350px;
+    animation: blob 10s ease-in-out infinite 4s;
+    z-index: -2;
 }
 
 @keyframes blob{
@@ -132,6 +149,16 @@
     }
 
     .hero__data h3 svg{
+        display: none;
+    }
+}
+
+@media screen and (max-width:411px){
+    .hero__img{
+        width: 275px;
+        height: 275px;
+    }
+    .hero__img::after{
         display: none;
     }
 }

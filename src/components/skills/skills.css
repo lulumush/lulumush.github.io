@@ -1,0 +1,10 @@
+.skills__section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills__section svg{
+    height: 70px;
+    width: 70px;
+    fill: var(--primary-color);
+}
