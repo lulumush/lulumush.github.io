@@ -2,15 +2,15 @@
 :root{
 
     /*============ Colors ============*/
-    --primary-color: #232E35;
-    --secondary-color: #656D72;
-    --third-color: #ecf0f1;
-    --body-color: #FFFFFF;
-    --second-body-color: #FBFBFB;
+    --dark-color: #232E35;
+    --light-dark-color: #656D72;
+    --white-color: #FFFFFF;
+    --off-white-color: #FBFBFB;
+    --darker-off-white-color: #ecf0f1;
 
     /*============ Font ============*/
     --body-font: 'Poppins', sans-serif;
-    --logo-font: 'Lemon Milk', cursive;
+    --accent-font: 'Lemon Milk', cursive;
 
     --big-font-size: 45px;
     --mobile-big-font-size: 35px;
@@ -44,23 +44,21 @@ html{
 body{
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    background-color: var(--body-color);
-    color: var(--primary-color);
+    background-color: var(--off-white-color);
+    color: var(--dark-color);
 }
 
 h1,
 h2
 {
-    color: var(--primary-color);
+    color: var(--dark-color);
     font-weight: 600;
-    font-family: var(--logo-font);
+    font-family: var(--accent-font);
 }
 
-h2{
-    padding-bottom: 50px;
-}
+
 h3{
-    color: var(--secondary-color);
+    color: var(--light-dark-color);
     font-style: italic;
 }
 
@@ -70,24 +68,11 @@ ul{
 
 a{
     text-decoration: none;
-    color: var(--secondary-color);
+    color: var(--light-dark-color);
 }
 
 a:hover{
-    color: var(--primary-color);
-}
-
-header{
-    height: 90px;
-    position: fixed;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-    transition: all 0.3s ease-in-out;
-    overflow: hidden;
-    background-color: var(--body-color);
+    color: var(--dark-color);
 }
 
 /*============ Layout ============*/
@@ -97,15 +82,11 @@ header{
     padding: 0 35px;
 }
 
-section{
-    padding-top: 50px;
-}
-
 /*============ Buttons ============*/
 .button{
     display: inline-block;
-    background-color: var(--primary-color);
-    color: var(--second-body-color);
+    background-color: var(--dark-color);
+    color: var(--off-white-color);
     padding: 15px 30px;
     font-weight: 500;
     cursor: pointer;
@@ -113,5 +94,5 @@ section{
 }
 
 .button:hover{
-    background-color: var(--secondary-color);
+    background-color: var(--light-dark-color);
 }

@@ -76,3 +76,8 @@ export const educationData =
             location: "Lycée de la Venise Verte, Niort"
         },
     ]
+
+export const skillsData = {
+    title: "_ Skills",
+    skills: ["Html", "CSS", "Sass", "Javascript", "React", "Tailwind CSS", "Bootstrap", "Git"]
+}

@@ -1,15 +1,15 @@
-.hero__container{
+.hero{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 30px;    
+    height: 90vh;
 }
 
 .hero__content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: 95vh;
     align-items: center;
+    height: 100%;
     gap: 30px;
 }
 
@@ -22,7 +22,7 @@
 
 .hero__data h1{
     font-size: var(--big-font-size);
-    font-family: var(--logo-font);
+    font-family: var(--accent-font);
     font-weight: bold;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .hero__data .button a{
-    color: var(--container-color);
+    color: var(--off-white-color);
     display: flex;
     gap: 10px;
     align-items: center;
@@ -50,18 +50,18 @@
 }
 
 .hero__socials svg,
-.hero__scroll-down svg{
+.hero__scroll svg{
     font-size: 40px;
     transition: .3s;
 }
 
 .hero__socials svg:hover,
-.hero__scroll-down svg:hover{
-    color: var(--primary-color);
+.hero__scroll svg:hover{
+    color: var(--dark-color);
     cursor: pointer;
 }
 
-.hero__scroll-down{
+.hero__scroll{
     animation: bounce 4s ease-in-out infinite;
 }
 
@@ -84,7 +84,7 @@
     right: -25px;
     top: -25px;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    background-color: var(--third-color);
+    background-color: var(--darker-off-white-color);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -115,18 +115,12 @@
 }
 
 @media screen and (max-width:992px){
-    .hero__scroll-down{
+    .hero__scroll{
         display: none;
     }
 }
 
 @media screen and (max-width:768px){
-    .hero__container{
-        padding-top:90px;
-        justify-content: space-between;
-        height: 100vh;
-    }
-    
     .hero__content{
         grid-template-columns: 1fr;
         height: 100%;
@@ -146,6 +140,10 @@
 @media screen and (max-width:576px){
     .hero__data h1{
         font-size: var(--mobile-big-font-size);
+    }
+
+    .hero__data h3{
+        text-align: center;
     }
 
     .hero__data h3 svg{

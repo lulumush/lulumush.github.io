@@ -1,3 +1,7 @@
+header{
+    height: 90px;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -5,18 +9,15 @@
     margin: auto;
     height: 100%;
     padding: 35px;
-    max-width: 1240px;
 }
 
-.navbar
-
-.navbar__menu{
+.navbar__content{
     display: flex;
     gap:10px
 }
 
 .navbar__logo{
-    font-family: var(--logo-font);
+    font-family: var(--accent-font);
     font-weight: bold;
 }
 
@@ -50,7 +51,7 @@
         cursor: pointer;
     }
     
-    .navbar__menu{
+    .navbar__content{
         position: fixed;
         right: -100%;
         top: 80px;
@@ -61,10 +62,10 @@
         z-index: 100;
         text-align: center;
         transition: .1s;
-        background-color: var(--body-color);
+        background-color: var(--off-white-color);
     }
 
-    .navbar__menu.active
+    .navbar__content.active
     {
         right: 0;
     }
