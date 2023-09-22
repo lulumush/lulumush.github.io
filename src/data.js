@@ -1,14 +1,6 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { FaCodeCommit } from 'react-icons/fa6'
 
-export const navData = [
-    { nav: "Accueil", url: process.env.PUBLIC_URL },
-    { nav: "À propos", url: "#about" },
-    { nav: "Projets", url: "#projets" },
-    { nav: "Contact", url: "#contact" },
-    { nav: "C.V.", url: "assets/CV.pdf" },
-]
-
 export const heroData = {
     header: "Hello, I'm",
     title: "Lucie Sundermeijer",
@@ -24,34 +16,34 @@ export const heroData = {
 
 
 export const aboutData = {
-    title: "_ A Propos",
+    title: "_ About",
     description: [
         {
-            content: "Je m'appelle Lucie et je suis une développeuse Front-End junior, basée en Nouvelle-Aquitaine."
+            content: "Hello, I'm Lucie Sundermeijer, a Junior Front-End Developer from Nouvelle-Aquitaine, FR."
         },
         {
-            content: "Après avoir exercé un tout autre métier ces dix dernières années, j'ai décidé de retourner vers mon métier d'origine et donc de faire une reconversion professionnelle."
+            content: "After working in a completely different field for the past ten years, I decided to return to my original profession and pursue a career change."
         },
         {
-            content: "Je suis une personne motivée, désireuse d'enrichir mes connaissances et mes compétences en tant que développeuse Front-End."
+            content: "I am a motivated individual eager to enhance my knowledge and skills as a Front-End developer."
         },
     ]
 }
 
 export const interestData = {
-    title: "J'aime aussi:",
+    title: "I also like:",
     interest: [
         {
             icon: <FaCodeCommit />,
-            content: "La photo argentique"
+            content: "Analog photography"
         },
         {
             icon: <FaCodeCommit />,
-            content: "La randonnée"
+            content: "Hiking"
         },
         {
             icon: <FaCodeCommit />,
-            content: "Les jeux-vidéos"
+            content: "video games"
         },
     ]
 }
@@ -78,7 +70,7 @@ export const educationData =
         },
     ]
 
-export const skillsData = {
+export const skillData = {
     title: "_ Skills",
     skills: ["Html", "CSS", "Sass", "Javascript", "React", "Tailwind CSS", "Bootstrap", "Git"]
 }

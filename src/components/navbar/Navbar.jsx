@@ -15,16 +15,16 @@ const Navbar = () => {
             <ul className={click ? "navbar__content active" : "navbar__content"}>
                 <li className='navbar__item'>
                     <a href="/" onClick={handleClick}>
-                        <FaHome /> Home
+                        <FaHome />Home
                     </a>
                 </li>
                 <li className='navbar__item'>
                     <a href="#about" onClick={handleClick}>
-                        <FaUser /> A propos</a>
+                        <FaUser />About</a>
                 </li>
                 <li className='navbar__item'>
                     <a href="#projects" onClick={handleClick}>
-                        <FaCode /> Projets</a>
+                        <FaCode />Projects</a>
                 </li>
                 <li className='navbar__item'>
                     <a href="#contact" onClick={handleClick}>

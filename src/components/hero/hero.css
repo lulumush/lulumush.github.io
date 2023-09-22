@@ -1,7 +1,7 @@
 .hero{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     height: 90vh;
 }
 
@@ -68,6 +68,7 @@
 
 .hero__scroll{
     animation: bounce 4s ease-in-out infinite;
+    align-self: center;
 }
 
 .hero__img{
@@ -77,8 +78,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 300px;
-    height: 300px;
+    width: 450px;
+    height: 450px;
     justify-self: center;
     animation: blob 10s ease-in-out infinite ;
 }
@@ -93,8 +94,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 350px;
-    height: 350px;
+    width: 500px;
+    height: 500px;
     animation: blob 10s ease-in-out infinite 4s;
     z-index: -2;
 }
@@ -106,15 +107,9 @@
 }
 
 @keyframes blob{
-    0%{
-        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    }
-    50%{
-        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
-    }
-    100%{
-        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    }
+    0%{ border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+    50%{ border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }
+    100%{ border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
 }
 
 @keyframes bounce {
@@ -128,6 +123,14 @@
 @media screen and (max-width:992px){
     .hero__scroll{
         display: none;
+    }
+    .hero__img{
+        width: 300px;
+        height: 300px;
+    }
+    .hero__img::after{
+        width: 350px;
+        height: 350px;
     }
 }
 
