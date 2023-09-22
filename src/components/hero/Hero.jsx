@@ -10,6 +10,7 @@ const Hero = () => {
             <div className='hero'>
                 <div className='hero__content'>
                     <div className='hero__data'>
+                        <div>{heroData.header}</div>
                         <h1>{heroData.title}</h1>
                         <h3><FaCodeCommit />{heroData.subTitle}</h3>
                         <div>
@@ -25,7 +26,7 @@ const Hero = () => {
                             )}
                         </div>
                     </div>
-                    <div className='hero__img'></div>
+                    <div className='hero__img'> </div>
                 </div>
                 <div className='hero__scroll'>
                     <a href='#about'><FaArrowCircleDown /></a>

@@ -20,6 +20,12 @@
     gap:20px;
 }
 
+.hero__data > div:nth-child(1){
+    font-family: var(--accent-font);
+    font-weight: bold;
+    font-size: 22px;
+}
+
 .hero__data h1{
     font-size: var(--big-font-size);
     font-family: var(--accent-font);
@@ -38,7 +44,6 @@
 }
 
 .hero__data .button a{
-    color: var(--off-white-color);
     display: flex;
     gap: 10px;
     align-items: center;
@@ -57,7 +62,7 @@
 
 .hero__socials svg:hover,
 .hero__scroll svg:hover{
-    color: var(--dark-color);
+    color: var(--accent-color);
     cursor: pointer;
 }
 
@@ -94,6 +99,12 @@
     z-index: -2;
 }
 
+.hero__pattern{
+    position: absolute;
+    right: -50px;
+    top: -50px;
+}
+
 @keyframes blob{
     0%{
         border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
@@ -121,6 +132,9 @@
 }
 
 @media screen and (max-width:768px){
+    .hero{
+        min-height: 100vh;
+    }
     .hero__content{
         grid-template-columns: 1fr;
         height: 100%;
@@ -146,7 +160,8 @@
         text-align: center;
     }
 
-    .hero__data h3 svg{
+    .hero__data h3 svg,
+    .hero__img::after{
         display: none;
     }
 }
@@ -155,8 +170,5 @@
     .hero__img{
         width: 275px;
         height: 275px;
-    }
-    .hero__img::after{
-        display: none;
     }
 }

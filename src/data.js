@@ -10,8 +10,9 @@ export const navData = [
 ]
 
 export const heroData = {
+    header: "Hello, I'm",
     title: "Lucie Sundermeijer",
-    subTitle: "Développeuse Front-End junior",
+    subTitle: "Front-End Developer",
     buttons: [
         { label: "Contact", url: "#contact" }
     ],
