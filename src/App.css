@@ -83,6 +83,9 @@ a:hover{
     padding: 0 35px;
 }
 
+.section__content{
+    padding: 50px 0;
+}
 /*============ Buttons ============*/
 .button{
     display: inline-block;

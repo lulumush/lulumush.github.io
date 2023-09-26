@@ -16,7 +16,7 @@ export const heroData = {
 
 
 export const aboutData = {
-    title: "_ About",
+    title: "_About",
     description: [
         {
             content: "Hello, I'm Lucie Sundermeijer, a Junior Front-End Developer from Nouvelle-Aquitaine, FR."
@@ -72,5 +72,6 @@ export const educationData =
 
 export const skillData = {
     title: "_ Skills",
-    skills: ["Html", "CSS", "Sass", "Javascript", "React", "Tailwind CSS", "Bootstrap", "Git"]
+    description: "Here are some technologies I’ve been working with :",
+    skills: ["Html", "CSS", "Sass", "Javascript", "React", "Tailwind CSS", "Bootstrap", "Git", "Wordpress", "Elementor"]
 }

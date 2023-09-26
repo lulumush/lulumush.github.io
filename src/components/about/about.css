@@ -1,0 +1,40 @@
+.about__content{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: auto 30%;
+    gap: 70px;
+}
+
+.about__content__description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.interest__item > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media screen and (max-width:768px){
+    .about__content{
+        grid-template-columns: repeat(1, 1fr);
+        gap:30px;
+    }
+}
+
+/* .about__content {
+    padding-top: 30px;
+    display: flex;
+    gap: 35px;
+}
+
+
+
+@media screen and (max-width:768px){
+    .about__content{
+        flex-direction: column;
+    }
+
+} */
