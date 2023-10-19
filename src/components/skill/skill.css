@@ -1,9 +1,0 @@
-.skills__content{
-    padding-top: 30px;
-}
-
-.skills__items{
-    display: inline-grid;
-    grid-template-columns: auto auto;
-    column-gap: 50px;
-}

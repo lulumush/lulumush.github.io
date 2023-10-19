@@ -27,7 +27,7 @@ const Navbar = () => {
                         <FaCode />Projects</a>
                 </li>
                 <li className='navbar__item'>
-                    <a href="#contact" onClick={handleClick}>
+                    <a href="mailto:lucie.sunder@gmail.com" onClick={handleClick}>
                         <FaPaperPlane />Contact</a>
                 </li>
             </ul>
