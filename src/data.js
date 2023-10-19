@@ -7,6 +7,7 @@ import portfoliocg from './assets/images/portfoliocg.png'
 import bootstrap from './assets/images/bootstrap.png'
 import sunnyside from './assets/images/sunnyside.png'
 import esetup from './assets/images/esetup.png'
+import lushemail from './assets/images/lushemail.png'
 
 export const heroData = {
     header: "Hello, I'm",
@@ -147,6 +148,15 @@ export const projectData = {
             tags: ["Wordpress ", "Elementor"],
             demo: "https://esetup.netlify.app/",
             image: esetup
+        },
+        {
+            id: 8,
+            title: "Html Email",
+            description: "",
+            tags: [],
+            demo: "https://lushemail.netlify.app/",
+            repo: "https://github.com/lulumush/htmlEmail",
+            image: lushemail
         },
     ]
 }
