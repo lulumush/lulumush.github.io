@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/lulumush/portfolio/static/css/main.aa343d66.css",
-    "main.js": "/lulumush/portfolio/static/js/main.704e339c.js",
-    "static/media/sunnyside.png": "/lulumush/portfolio/static/media/sunnyside.e726852dec6b3c8687fb.png",
-    "static/media/lushemail.png": "/lulumush/portfolio/static/media/lushemail.9779ce16fb704b87dc8f.png",
-    "static/media/bootstrap.png": "/lulumush/portfolio/static/media/bootstrap.57a018a92d23d981fa73.png",
-    "static/media/kasa.png": "/lulumush/portfolio/static/media/kasa.af3004053142fea14972.png",
-    "static/media/ohmyfood.png": "/lulumush/portfolio/static/media/ohmyfood.f6853096de4cf2c2bf91.png",
-    "static/media/esetup.png": "/lulumush/portfolio/static/media/esetup.f12f66c3479d1c75cc12.png",
-    "static/media/portfoliocg.png": "/lulumush/portfolio/static/media/portfoliocg.6b1ea507fe4d34e9e72a.png",
-    "static/media/booki.png": "/lulumush/portfolio/static/media/booki.3bf43443b6e6d33153f7.png",
-    "static/media/profile.jpg": "/lulumush/portfolio/static/media/profile.fa2750e9634912d78cd8.jpg",
-    "static/media/LEMONMILK-Bold.otf": "/lulumush/portfolio/static/media/LEMONMILK-Bold.ac2b6389ba01ca1f431e.otf",
-    "static/media/LEMONMILK-Regular.otf": "/lulumush/portfolio/static/media/LEMONMILK-Regular.55fc24317b9c2b507dd8.otf",
-    "index.html": "/lulumush/portfolio/index.html",
-    "main.aa343d66.css.map": "/lulumush/portfolio/static/css/main.aa343d66.css.map",
-    "main.704e339c.js.map": "/lulumush/portfolio/static/js/main.704e339c.js.map"
+    "main.css": "/static/css/main.1903535e.css",
+    "main.js": "/static/js/main.934d1467.js",
+    "static/media/sunnyside.png": "/static/media/sunnyside.e726852dec6b3c8687fb.png",
+    "static/media/lushemail.png": "/static/media/lushemail.9779ce16fb704b87dc8f.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.57a018a92d23d981fa73.png",
+    "static/media/kasa.png": "/static/media/kasa.af3004053142fea14972.png",
+    "static/media/ohmyfood.png": "/static/media/ohmyfood.f6853096de4cf2c2bf91.png",
+    "static/media/esetup.png": "/static/media/esetup.f12f66c3479d1c75cc12.png",
+    "static/media/portfoliocg.png": "/static/media/portfoliocg.6b1ea507fe4d34e9e72a.png",
+    "static/media/booki.png": "/static/media/booki.3bf43443b6e6d33153f7.png",
+    "static/media/profile.jpg": "/static/media/profile.fa2750e9634912d78cd8.jpg",
+    "static/media/LEMONMILK-Bold.otf": "/static/media/LEMONMILK-Bold.ac2b6389ba01ca1f431e.otf",
+    "static/media/LEMONMILK-Regular.otf": "/static/media/LEMONMILK-Regular.55fc24317b9c2b507dd8.otf",
+    "index.html": "/index.html",
+    "main.1903535e.css.map": "/static/css/main.1903535e.css.map",
+    "main.934d1467.js.map": "/static/js/main.934d1467.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa343d66.css",
-    "static/js/main.704e339c.js"
+    "static/css/main.1903535e.css",
+    "static/js/main.934d1467.js"
   ]
 }
