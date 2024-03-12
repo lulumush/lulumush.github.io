@@ -17,7 +17,7 @@ export const heroData = {
         { label: "Contact", url: "mailto:lucie.sunder@gmail.com" }
     ],
     socials: [
-        { icon: <FaGithub />, url: 'https://github.com/lulumush' },
+        { icon: <FaGithub />, url: 'https://github.com/luciesunder' },
         { icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/lucie-sundermeijer/' }
     ]
 }
@@ -92,8 +92,8 @@ export const projectData = {
             title: "Booki",
             description: "Project done during my online training with OpenClassrooms",
             tags: ["HTML ", "CSS"],
-            demo: "https://lulumush.github.io/Booki/",
-            repo: "https://github.com/lulumush/Booki",
+            demo: "https://luciesunder.github.io/Booki/",
+            repo: "https://github.com/luciesunder/Booki",
             image: booki
         },
         {
@@ -101,8 +101,8 @@ export const projectData = {
             title: "Ohmyfood",
             description: "Project done during my online training with OpenClassrooms",
             tags: ["HTML ", "Sass"],
-            demo: "https://lulumush.github.io/Ohmyfood/",
-            repo: "https://github.com/lulumush/Ohmyfood",
+            demo: "https://luciesunder.github.io/Ohmyfood/",
+            repo: "https://github.com/luciesunder/Ohmyfood",
             image: ohmyfood
         },
         {
@@ -110,8 +110,8 @@ export const projectData = {
             title: "Kasa",
             description: "Project done during my online training with OpenClassrooms",
             tags: ["React ", "Sass"],
-            demo: "https://lulumush.github.io/Kasa/",
-            repo: "https://github.com/lulumush/Kasa",
+            demo: "https://luciesunder.github.io/Kasa/",
+            repo: "https://github.com/luciesunder/Kasa",
             image: kasa
         },
         {
@@ -119,8 +119,8 @@ export const projectData = {
             title: "Photograph portfolio",
             description: "Project done to practice my skills with React and Tailwind CSS",
             tags: ["React ", "Tailwind CSS"],
-            demo: "https://lulumush.github.io/portfolio-cg/",
-            repo: "https://github.com/lulumush/portfolio-cg",
+            demo: "https://luciesunder.github.io/portfolio-cg/",
+            repo: "https://github.com/luciesunder/portfolio-cg",
             image: portfoliocg
         },
         {
@@ -128,8 +128,8 @@ export const projectData = {
             title: "Landing page Bootstrap",
             description: "Project done to practice Bootstrap",
             tags: ["HTML ", "Bootstrap"],
-            demo: "https://lulumush.github.io/Bootstrap-Landing-Page/",
-            repo: "https://github.com/lulumush/Bootstrap-Landing-Page",
+            demo: "https://luciesunder.github.io/Bootstrap-Landing-Page/",
+            repo: "https://github.com/luciesunder/Bootstrap-Landing-Page",
             image: bootstrap
         },
         {
@@ -137,8 +137,8 @@ export const projectData = {
             title: "Sunnyside agency landing page",
             description: "Project done during a frontendmentor.io challenge",
             tags: ["React ", "Tailwind CSS"],
-            demo: "https://lulumush.github.io/sunnyside-agency-landing-page/",
-            repo: "https://github.com/lulumush/sunnyside-agency-landing-page",
+            demo: "https://luciesunder.github.io/sunnyside-agency-landing-page/",
+            repo: "https://github.com/luciesunder/sunnyside-agency-landing-page",
             image: sunnyside
         },
         {
@@ -155,7 +155,7 @@ export const projectData = {
             description: "",
             tags: [],
             demo: "https://lushemail.netlify.app/",
-            repo: "https://github.com/lulumush/htmlEmail",
+            repo: "https://github.com/luciesunder/htmlEmail",
             image: lushemail
         },
     ]
