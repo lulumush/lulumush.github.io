@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1903535e.css",
-    "main.js": "/static/js/main.934d1467.js",
+    "main.css": "/static/css/main.814e0f1f.css",
+    "main.js": "/static/js/main.5debc5e2.js",
     "static/media/sunnyside.png": "/static/media/sunnyside.e726852dec6b3c8687fb.png",
     "static/media/lushemail.png": "/static/media/lushemail.9779ce16fb704b87dc8f.png",
     "static/media/bootstrap.png": "/static/media/bootstrap.57a018a92d23d981fa73.png",
@@ -14,11 +14,11 @@
     "static/media/LEMONMILK-Bold.otf": "/static/media/LEMONMILK-Bold.ac2b6389ba01ca1f431e.otf",
     "static/media/LEMONMILK-Regular.otf": "/static/media/LEMONMILK-Regular.55fc24317b9c2b507dd8.otf",
     "index.html": "/index.html",
-    "main.1903535e.css.map": "/static/css/main.1903535e.css.map",
-    "main.934d1467.js.map": "/static/js/main.934d1467.js.map"
+    "main.814e0f1f.css.map": "/static/css/main.814e0f1f.css.map",
+    "main.5debc5e2.js.map": "/static/js/main.5debc5e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.1903535e.css",
-    "static/js/main.934d1467.js"
+    "static/css/main.814e0f1f.css",
+    "static/js/main.5debc5e2.js"
   ]
 }
